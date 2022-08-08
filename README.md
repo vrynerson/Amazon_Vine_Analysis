@@ -10,15 +10,16 @@ This project used data from Amazon reviews on pet products. Using PySpark, the E
 
 * How many Vine reviews and non-Vine reviews were there?
     * From the crude data: there were 10,215 Vine reviews and 2,633,399 non-Vine reviews.
-    * From the "more than 50% helpful votes" category: there were 170 Vine reviews and 37840 non-Vine reviews.
-    
+    * From the "more than 50% helpful votes" category: there were 170 Vine reviews and 37,840 non-Vine reviews.
+>>> yes vine, no vine df images
 * How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-    * From the "more than 50% helpful votes" and "5-star review" category: there were 65 Vine reviews and 20612 non-Vine reviews.
+    * From the "more than 50% helpful votes" and "5-star review" category: there were 65 Vine reviews and 20,612 non-Vine reviews.
+>>>5 star yes vine, 5 star no vine df images
 
 * What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
     * 0.31% of the helpful five star reviews on pet products are part of the paid Vine program.
     * 99.69% of the helpful five star reviews on pet products are not part of the Vine program.
-
+>>> percentages
 ## Summary: 
 Based on the low percentage of 0.31% of significant reviews being from people that are part of the paid Vine program, it is not significant. 99.69% of the reviews that were rated as helpful and five-star were from people who genuinely enjoyed the products for their pets.
 
